@@ -44,4 +44,8 @@ Jika kamu ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berik
     npm run dev
     ```
 
+HEAD
 Terima kasih telah berkunjung!
+
+Terima kasih sudah berkunjung!
+
