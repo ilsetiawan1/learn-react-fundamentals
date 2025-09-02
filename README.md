@@ -1,12 +1,47 @@
-# React + Vite
+# 🚀 Perjalanan Belajar React Fundamentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang! Repositori ini adalah dokumentasi dari proses belajar saya dalam memahami dasar-dasar **React.js**.
 
-Currently, two official plugins are available:
+Tujuan dari repositori ini adalah untuk mencatat setiap progres, latihan, dan proyek kecil yang saya buat. Ini juga berfungsi sebagai portofolio personal untuk menunjukkan pemahaman saya terhadap konsep-konsep fundamental React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Topik yang Telah dan Akan Dipelajari
 
-## Expanding the ESLint configuration
+Berikut adalah beberapa topik utama yang saya pelajari dan praktikkan di dalam repositori ini:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Setup Proyek:** Menggunakan `Vite` sebagai build tool modern.
+* **Komponen & JSX:** Memahami cara membuat dan menggunakan komponen fungsional serta sintaks JSX.
+* **Props:** Mengirim data dari komponen induk ke komponen anak untuk membuat UI yang dinamis.
+* **Merender List:** Menggunakan metode `.map()` untuk menampilkan data dalam bentuk list.
+* **Conditional Rendering:** Menampilkan elemen UI berdasarkan kondisi tertentu.
+* **Styling:** Mengintegrasikan dan menggunakan `Tailwind CSS` untuk styling yang cepat dan efisien.
+* **(Selanjutnya) State & Hooks:** Mempelajari `useState` untuk mengelola data yang dapat berubah di dalam komponen.
+
+## 💻 Teknologi yang Digunakan
+
+* **React.js**
+* **Vite**
+* **Tailwind CSS**
+* **Git & GitHub**
+
+## ⚙️ Cara Menjalankan Proyek Ini
+
+Jika kamu ingin menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+
+1.  **Clone repositori ini:**
+    ```bash
+    git clone [https://github.com/ilsetiawan1/learn-react-fundamentals.git](https://github.com/ilsetiawan1/learn-react-fundamentals.git)
+    ```
+2.  **Masuk ke direktori proyek:**
+    ```bash
+    cd learn-react-fundamentals
+    ```
+3.  **Install semua dependensi:**
+    ```bash
+    npm install
+    ```
+4.  **Jalankan development server:**
+    ```bash
+    npm run dev
+    ```
+
+Terima kasih sudah berkunjung!

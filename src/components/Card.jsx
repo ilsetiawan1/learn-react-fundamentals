@@ -4,18 +4,17 @@ import React from 'react';
 import { FaStar } from 'react-icons/fa6';
 import { CiStar } from 'react-icons/ci';
 
-const Card = ({image, altImage, title, rating, reviewCount, secondaryText, description}) => {
-
+const Card = ({ image, altImage, title, rating, reviewCount, secondaryText, description }) => {
   const starsPlus = [];
+  for (let i = 0; i < rating; i++) {
+    starsPlus.push(<FaStar key={`filled-${i}`} />);
+  }
+
   const starsMins = [];
-  for (let i = 1; i <= rating; i++){
-    starsPlus.push(<FaStar />);
+  const emptyStarsCount = 5 - rating;
+  for (let i = 0; i < emptyStarsCount; i++) {
+    starsMins.push(<CiStar key={`empty-${i}`} />);
   }
-
-  for (rating; rating - 5; rating++) {
-    starsMins.push(<CiStar />);
-  }
-
 
   return (
     <div className="bg-slate-200 w-[200px] rounded-2xl overflow-hidden">

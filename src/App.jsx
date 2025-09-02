@@ -1,12 +1,12 @@
 import './App.css';
+import Homepage from './pages';
 // import Card from './components/Card';
-import Article from './components/Article'
 
 function App() {
   return (
-    <div className="grid grid-cols-4 p-6">
-      <Article name="ilham" titles={["Reactjs", "Nextjs"]}></Article>
-      <Article name="budi" titles={["Nodejs", "Expressjs"]}></Article>
+    <div className="">
+      <Homepage/>
+
       {/* Latihan buat Card */}
       {/* <Card
         image={'/Jogja.jpeg'}
